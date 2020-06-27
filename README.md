@@ -2,7 +2,7 @@
 
 ## Oblig1
 
-Performs differnt operations on strings
+Performs different operations on strings
 
 
 
@@ -11,13 +11,22 @@ Performs differnt operations on strings
 Centered around AST (Abstract Syntax Trees)
 
 Reads a string and creates the AST from this string. ie:
-```parse + 4 * 8 - 5"```
+```
+parse + 4 * 8 - 5"
+```
 returns the AST:
-``` Sum (Tall 4) (Mult (Tall 8) (Min (Tall 5)))```
+``` 
+Sum (Tall 4) (Mult (Tall 8) (Min (Tall 5)))
+```
 
 Then evaluate this AST:
-```evi (parse "+ 4 * 8 - 5")```
-```-36```
+```
+evi (parse "+ 4 * 8 - 5")
+```
+
+```
+-36
+```
 
 
 
