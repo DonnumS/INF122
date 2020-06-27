@@ -13,6 +13,7 @@ Centered around AST (Abstract Syntax Trees)
 Reads a string and creates the AST from this string. ie:
 ```
 parse + 4 * 8 - 5"
+// this expression is: 4 + (8 * (-5))
 ```
 returns the AST:
 ``` 
